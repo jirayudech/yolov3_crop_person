@@ -6,10 +6,10 @@ example code for use AI model YOLOv3 to group person from an image.
 
 clone this git
 
-pip install ultralytics
+'''pip install ultralytics'''
 
 command for 1 image process
-python start.py
+'''python start.py'''
 
 command for batch process
-python start_batch.py
+'''python start_batch.py'''
