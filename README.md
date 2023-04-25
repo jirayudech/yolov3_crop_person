@@ -1,15 +1,18 @@
-# yolov3_crop_person
+# YOLOv3 Crop Person
 
-example code for use AI model YOLOv3 to group person from an image.
+This is an example code for using the AI model YOLOv3 to group persons from an image.
 
-# Usage
+## Usage
 
-clone this git
+1. Clone this repository.
+2. Install the required dependencies by running the following command:
+```sh
+pip install ultralytics
 
-'''pip install ultralytics'''
+3. To process a single image, run the following command:
+```sh
+python start.py
 
-command for 1 image process
-'''python start.py'''
-
-command for batch process
-'''python start_batch.py'''
+4. To process a batch of images, run the following command:
+```sh
+python start_batch.py
