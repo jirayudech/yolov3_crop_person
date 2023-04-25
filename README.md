@@ -8,4 +8,8 @@ clone this git
 
 pip install ultralytics
 
+command for 1 image process
 python start.py
+
+command for batch process
+python start_batch.py
